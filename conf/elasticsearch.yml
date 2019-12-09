@@ -1,3 +1,5 @@
 network.host: 0.0.0.0
 http.cors.enabled: true
 http.cors.allow-origin: "*"
+discovery.seed_hosts: ["34.82.219.100:9300",]
+cluster.initial_master_nodes: ["34.82.219.100:9300",]
